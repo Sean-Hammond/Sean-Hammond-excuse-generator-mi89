@@ -9,14 +9,14 @@ function randomPhrase(arrayName) {
   return arrayName[Math.floor(Math.random() * arrayName.length)]
 }
 
-let who = ['The dog', 'My grandma', 'The mailman', 'My bird', 'Dave'];
-let action = ['ate', 'lost', 'crushed', 'broke', 'stole'];
-let what = ['my homework', 'my phone', 'the car', 'my glasses'];
-let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
+let who = ['Bobby', 'Will', 'The weatherman', 'My uncle', 'Dave'];
+let action = ['ate', 'lost', 'crushed', 'said his number one priority was', 'stole'];
+let what = ['my research', 'my phone', 'the camera', 'his glasses'];
+let when = ['before the meeting', 'when he was sleeping', 'while I was researching', 'during the report', 'in the elevator', 'for his television program'];
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  console.log("Function that dislays the excuse to the browser.");
   document.querySelector('#excuse').innerHTML = randomPhrase(who)
    + " " + randomPhrase(action) + " " + randomPhrase(what) + " " + randomPhrase(when) + "."
 };
