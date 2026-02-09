@@ -3,17 +3,16 @@
 body{
     background: black;
     color: white;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 p#excuse {
     color: red;
-    border-radius: 50px / 15px;
+    border-radius: 3rem / 1rem;
     background: cornsilk;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
+    width: 30%;
+    min-height: 10rem;
 }
 
 small {

@@ -10,7 +10,7 @@ function randomPhrase(arrayName) {
 }
 
 let who = ['Bobby', 'Will', 'The weatherman', 'My uncle', 'Dave'];
-let action = ['ate', 'lost', 'crushed', 'said his number one priority was', 'stole'];
+let action = ['ate', 'lost', 'crushed', 'said his number one priority was', 'stole', 'was late getting to'];
 let what = ['my research', 'my phone', 'the camera', 'his glasses'];
 let when = ['before the meeting', 'when he was sleeping', 'while I was researching', 'during the report', 'in the elevator', 'for his television program'];
 
