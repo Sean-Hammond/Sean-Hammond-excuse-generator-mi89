@@ -13,6 +13,7 @@ p#excuse {
     background: cornsilk;
     width: 30%;
     min-height: 10rem;
+    margin: auto;
 }
 
 small {
