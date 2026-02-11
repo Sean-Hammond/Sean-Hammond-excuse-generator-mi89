@@ -40,8 +40,7 @@ function generateStory() {
     randomPhrase(what) +
     " " +
     randomPhrase(when) +
-    "." +
-    '<button onclick="generateStory()" class="rounded-pill">New Story</button>';
+    ".";
 }
 
 window.onload = function () {
