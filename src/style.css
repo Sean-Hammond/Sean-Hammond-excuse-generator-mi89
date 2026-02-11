@@ -7,7 +7,7 @@ body{
     margin-left: 5%;
 }
 
-p#excuse {
+p#story {
     color: red;
     border-radius: 3rem / 1rem;
     background: cornsilk;
@@ -20,3 +20,13 @@ small {
     color: yellow;
 }
 
+button {
+    background-color: aquamarine;
+    color: navy;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: navajowhite;
+    color: red;
+}

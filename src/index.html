@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Excuse Generator</title>
+    <title>Silly Story Generator</title>
 
     <!-- Fontawesome is our recomended library for icons -->
     <link
@@ -15,34 +15,35 @@
     />
   </head>
   <body>
-    <main class="text-center" id="excuse-container">
-      <h1>Excuse Generator v3.0</h1>
+    <main class="text-center" id="story-container">
+      <h1>Silly Story Generator v3.0</h1>
       <br />
-      <strong><p class="p-3" id="excuse">My dog ate my homework</p></strong>
+      <strong><p class="p-3" id="story">My dog ate my homework</p></strong>
       <br />
       <p>
-        Press refresh to get another exuse!
+        Refresh or click below for a new story!
         <i class="fa-solid fa-rotate-right"></i>
       </p>
+      <button onclick="generateStory()" class="rounded-pill">New Story</button>
     </main>
 
-    <footer class="fixed-bottom text-center text-light">
+    <footer class="fixed-bottom p-3 text-center text-light">
       <small
         ><em
-          ><strong>Version 3 notes:</strong> Removed pixel values in CSS (based on feedback by Ryan Castanier). Changed array values.</em
+          ><strong>Version 3 notes:</strong> Removed pixel values in CSS. Changed array values. Added button.</em
         ></small
       >
       <br /><small
         ><em
           ><strong>Version 2 notes:</strong> Array length is no longer
-          hard-coded (changed after feedback from Thomas Brito).</em
+          hard-coded.</em
         ></small
       >
       <br /><small class="text-light"
         ><em>
           HTML/CSS/JavaScript code by Sean Hammond. Repository template by
           Alejandro Sanchez and contributors at 4Geeks Academy. Mentors: Ryan
-          Castanier, Thomas Brito, Alex Ayala.</em
+          C., Thomas B., Alex A.</em
         ></small
       >
     </footer>
